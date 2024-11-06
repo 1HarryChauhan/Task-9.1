@@ -1,0 +1,157 @@
+.subscribe-box {
+	background-color: rgba(128, 128, 128, 0.514);
+}
+
+.subscribe-text {
+	font-size: 40px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+.signup-title {
+	color: #377cff;
+}
+.input-email {
+	font-size: 40px;
+
+	font-weight: bold;
+}
+.input-box {
+	padding: 10px;
+}
+Input {
+	size: 10cm;
+	width: 200px;
+}
+
+button.email {
+	font-size: 40px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+button.login {
+	font-size: 20px;
+	width: 200px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+button.seeMore {
+	font-size: 25px;
+	float: center;
+	border-radius: 25px;
+	padding: 20px;
+}
+/* Container for flexboxes */
+.row {
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	float: center;
+}
+.row.header {
+	background-color: rgba(170, 170, 170, 0.452);
+
+	justify-content: center;
+}
+
+.searchBox {
+	background-color: white;
+	color: rgb(170, 170, 170);
+	width: 70%;
+	height: 30px;
+	padding: 5px;
+	text-align: left;
+	font-weight: 500;
+	position: relative;
+}
+.searchBox img {
+	position: absolute;
+	width: 20px;
+
+	left: 10px;
+	top: 10px;
+}
+.searchBox p {
+	position: absolute;
+	left: 40px;
+	top: -5px;
+}
+
+img.star {
+	width: 20px;
+}
+
+.coverImage {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	padding: 10px;
+}
+
+.row.footer {
+	background-color: #348388;
+
+	position: relative;
+}
+
+.socialIcon {
+	width: 30px;
+	background-color: white;
+}
+
+ul {
+	font-size: 25px;
+	font-weight: 600;
+	list-style-type: none;
+	text-align: left;
+}
+.login-style {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 0.5cm;
+}
+
+a {
+	color: black;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+	padding: 10px;
+	text-align: center;
+	max-width: 1000px;
+	margin: auto;
+	justify-content: center;
+}
+
+/* small column */
+.column.small {
+	-webkit-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+/* medium column */
+.column.medium {
+	-webkit-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+}
+
+/* large column */
+.column.large {
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 1000px) {
+	.row {
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		text-align: center;
+	}
+}
